@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRUD App</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./main.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1>Grocery Hub</h1>
+      </header>
+
+      <section>
+        <div class="add-user">
+          <div class="row">
+            <div class="col-md-10">
+              <input type="text" class="form-control" id="data" placeholder="Type here......" />
+            </div>
+            <div class="col-md-2">
+              <button class="btn btn-dark" id="create" onclick="createprod()">
+                Add
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="row">
+        <div class="col-sm-12">
+          <h3>LIST :-</h3>
+        </div>
+      </div>
+      <section>
+        <div class="list" id="productlist">
+          <!-- <div class="row">
+            <div class="col-md-6 col-sm-12 col-xs-12">
+              <input type="text" class="form-control" />
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-4">
+              <button type="button" class="btn btn-primary">EDIT</button>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-4">
+              <button type="button" class="btn btn-success">UPDATE</button>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-4">
+              <button type="button" class="btn btn-danger">DELETE</button>
+            </div>
+          </div> -->
+
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
